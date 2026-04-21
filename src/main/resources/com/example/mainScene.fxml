@@ -19,9 +19,9 @@
       <TextField fx:id="radius2field" layoutX="43.0" layoutY="147.0" />
       <Label layoutX="43.0" layoutY="130.0" text="Második sugár (r2)" />
       <TextField fx:id="heightfield" layoutX="43.0" layoutY="209.0" />
-      <Label layoutX="43.0" layoutY="192.0" text="Magasság" />
-      <TextField fx:id="volumefield" layoutX="43.0" layoutY="306.0" />
-      <Label layoutX="43.0" layoutY="289.0" text="Térfogat" />
+      <Label layoutX="43.0" layoutY="192.0" text="Magasság (h)" />
+      <TextField fx:id="volumefield" editable="false" layoutX="43.0" layoutY="306.0" />
+      <Label layoutX="43.0" layoutY="289.0" text="Térfogat (V)" />
       <Button layoutX="515.0" layoutY="16.0" mnemonicParsing="false" onAction="#onClickAboutButton" text="Névjegy" />
    </children>
 </Pane>
