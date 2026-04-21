@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="234.0" layoutY="209.0" mnemonicParsing="false" onAction="#onClickCountButton" text="Számít" />
+      <Label layoutX="181.0" layoutY="14.0" text=" Ellipszis alapú kúp térfogata">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="radius1field" layoutX="43.0" layoutY="85.0" />
+      <Label layoutX="43.0" layoutY="68.0" text="Első sugár (r1)" />
+      <TextField fx:id="radius2field" layoutX="43.0" layoutY="147.0" />
+      <Label layoutX="43.0" layoutY="130.0" text="Második sugár (r2)" />
+      <TextField fx:id="heightfield" layoutX="43.0" layoutY="209.0" />
+      <Label layoutX="43.0" layoutY="192.0" text="Magasság" />
+      <TextField fx:id="volumefield" layoutX="43.0" layoutY="306.0" />
+      <Label layoutX="43.0" layoutY="289.0" text="Térfogat" />
+   </children>
+</Pane>
