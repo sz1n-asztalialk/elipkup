@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.MainController">
    <children>
       <Button layoutX="234.0" layoutY="209.0" mnemonicParsing="false" onAction="#onClickCountButton" text="Számít" />
@@ -23,5 +22,6 @@
       <Label layoutX="43.0" layoutY="192.0" text="Magasság" />
       <TextField fx:id="volumefield" layoutX="43.0" layoutY="306.0" />
       <Label layoutX="43.0" layoutY="289.0" text="Térfogat" />
+      <Button layoutX="515.0" layoutY="16.0" mnemonicParsing="false" onAction="#onClickAboutButton" text="Névjegy" />
    </children>
 </Pane>

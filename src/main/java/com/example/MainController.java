@@ -23,6 +23,11 @@ public class MainController {
         this.startCalc();
     }
 
+        @FXML
+    void onClickAboutButton(ActionEvent event) {
+        App.setRoot("aboutScene");
+    }
+
     void startCalc(){
         
         double radius1 = Double.parseDouble(radius1field.getText());
@@ -32,6 +37,18 @@ public class MainController {
         double volume = Cone.calcVolume(radius1, radius2, height);
 
         volumefield.setText(String.valueOf(volume));
+
+        String line = makeLine(
+            radius1field.getText(),
+            radius2field.getText(),
+            heightfield.getText(),
+            volumefield.getText());
+
+        WriteToFile.write(line);
+    }
+
+    String makeLine(String a, String b, String c, String d){
+        return a + "; " + b + "; " + c + "; " + d + "\n";
     }
 
 }

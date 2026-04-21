@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.AboutController">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClickGoBackButton" text="Vissza" />
+      <TextArea editable="false" layoutX="193.0" layoutY="85.0" prefHeight="200.0" prefWidth="183.0" text="Készítette: &#10;Dóra Boglárka&#10;SZ-I-N&#10;2026-04-21&#10;github.com/kalae1337" />
+   </children>
+</Pane>
